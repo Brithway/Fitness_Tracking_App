@@ -3,7 +3,15 @@
 ## 📖 Project Overview
 The **Fitness Tracking App** is an object-oriented program designed to log, update, review, adjust, and track workout sessions. It also generates progress reports based on user activities. The app follows a **state machine model** to transition workouts through various stages.
 
-## 🛠️ Features
+## 🛠️ Features for Assignment 1
+- **User Registration & Authentication**: Secure login and profile management.
+- **Workout & Nutrition Logging**: Users can log exercises, set meal plans, and track calories.
+- **Progress Tracking**: Graphical analytics and reports for users to view fitness progress.
+- **Automated Reminders**: Notifications for workouts and meal logging.
+- **Integration with Wearables**: Sync with smartwatches and fitness bands.
+- **Data Security**: Securely stores user data with encryption and privacy protection.
+  
+## 🛠️ Features for Assignment 2
 - **Workout Management**: Log, update, review, adjust, archive, and track workouts.
 - **State Machine Implementation**: Ensures workouts follow a proper sequence of states.
 - **Progress Report Generation**: Displays workout summaries.
