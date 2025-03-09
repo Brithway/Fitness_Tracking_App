@@ -1,1 +1,35 @@
 
+## 📌 Diagram Descriptions
+
+### 🏋️‍♂️ **1. State Machine Diagram**
+- Illustrates the different **states** of a workout session.
+- Shows how a workout progresses through:
+  1️⃣ Initialized → 2️⃣ Workout Logged → 3️⃣ Updated → 4️⃣ Reviewed → 5️⃣ Managed → 6️⃣ Archived → 7️⃣ Tracked
+- Ensures a structured **state transition model**.
+
+### 🔄 **2. Sequence Diagram - Workout**
+- Represents the interactions in the **Workout** class.
+- Shows how methods like `LogWorkout()`, `UpdateWorkout()`, and `ArchiveWorkout()` are executed in **sequence**.
+
+### 📈 **3. Sequence Diagram - Progress Report**
+- Represents how the **Progress Report** class functions.
+- Shows how a report is **generated**, **stored**, and **displayed**.
+
+### 🏗️ **4. Class Diagram**
+- Displays the **Workout** and **ProgressReport** classes.
+- Shows the attributes (`WorkoutType`, `Duration`, `State`) and methods (`LogWorkout()`, `GenerateReport()`).
+- Represents **object-oriented relationships** between classes.
+
+### 🎭 **5. Use Case Diagram**
+- Shows how **users** interact with the system.
+- Includes actions like **logging workouts, reviewing progress, and tracking state changes**.
+
+### 🏃 **6. Activity Diagram**
+- Represents the **workflow** of the fitness tracking process.
+- Highlights **decision points**, actions, and transitions.
+
+## 📌 How to View the Diagrams?
+1. **Clone this repository:**
+   ```sh
+   git clone https://github.com/YOUR_GITHUB_USERNAME/FitnessTrackingApp-Diagrams.git
+
